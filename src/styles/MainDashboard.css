@@ -1,0 +1,146 @@
+.mainDashboard{
+  width: 100%;
+  /* border: 2px solid black; */
+  padding: 15px;
+  background-color: #E9EEF2;
+}
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+}
+.topNav button{
+  border: none;
+  background-color: white;
+  width: 25%;
+  height: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  /* word-wrap:normal; */
+}
+#activeFarmer, #eventFarmer, #travelFarmer{
+  background-color:  #7EB1DE;
+}
+.farmerSec{
+  /* width: 100%; */
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+#headerF{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.maintemp{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 86vh;
+  /* border: 2px solid black; */
+}
+.tempSec{
+  background-color: #efebeb;
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  /* height: 35%; */
+}
+.tempSec p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.tempSec img {
+  width: 25%;
+  margin-top: 10px;
+}
+.progress-bar{
+  position: relative;
+  margin: 4px;
+  float:left;
+  text-align: center;
+  left: 20%;
+  top: 10%;
+  /* width: 60%; */
+}
+.barOverflow{ 
+  position: relative;
+  overflow: hidden; 
+  width: 250px; height: 100px; 
+  margin-bottom: -20px;
+  /* margin-left: -200px; */
+}
+.bar{
+  position: absolute;
+  top: 0; left: 0;
+  width: 250px; 
+  height: 250px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 20px solid #7BABDB;       
+  border-bottom-color: white; 
+  border-right-color: white;
+}
+.progress-bar span{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-left: 110px;
+}
+.eventSection{
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  /* height: 86vh; */
+  
+}
+.currentCond{
+  width: 50%;
+  background-color: #efebeb;
+  padding: 15px;
+  text-align: center;
+  /* height: 30%; */
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.currentCond img{
+  width: 40%;
+  margin: 15px 0;
+}
+.currentCond h5, .humidySec h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+#degreee{
+  font-size: 18px;
+  font-weight: bold;
+}
+#clearSky{
+ font-size: 16px;
+}
+.humidySec{
+  padding: 15px;
+  background-color: #efebeb;
+  border-radius: 10px;
+}
+.humidyDiv{
+  display: flex;
+  text-align: center;
+}
+.humidyDiv img{
+  width: 50%;
+  margin: 10px 0;
+}
+#time{
+  font-size: 18px;
+}
+

@@ -1,0 +1,36 @@
+.todayWeather{
+  width: 20%;
+  /* border: 2px solid black; */
+  height: 100vh;
+  background-color: #7EB1DE;
+  margin: 0;
+  /* text-align: center; */
+  color: white;
+}
+#header{
+  text-align: center;
+  font-size: 22px;
+  padding-top: 15px;
+  font-weight: bold;
+  
+}
+#cloudPic{
+  width: 80%;
+  /* height: 20%; */
+  /* color: black; */
+}
+p{
+  margin: 0;
+}
+.temp{
+  margin-left:1%;
+  font-size: 22px;
+  height: 40%;
+  display: grid;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+#degrees{
+  font-size: 70px;
+}
